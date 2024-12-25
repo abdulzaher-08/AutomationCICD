@@ -22,6 +22,7 @@ public class StandAloneTest extends BaseTest {
 //	String password = "12345Aa@";
 //	String productName = "ADIDAS ORIGINAL";	
 	
+// New comments are added
 	@Test (dataProvider = "getData", groups = {"Purchase"})
 	public void StandAlone(HashMap<String, String> input) {		
 		
